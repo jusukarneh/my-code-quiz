@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h3>View Highscores</h3>
+
+    <p>Time: <label for="" id="timer"></label></p>
+  </header>
+  <main>
+    <section id="intro-section">
+      <h1> Coding Quiz Challenge</h1>
+      <p>Try to answer the following code-related questions within the time limit.
+        keep in mind that incorrect answer will penalize your score time by ten seconds.
+      </p>
+      <button id="start-btn">Start Quiz</button>
+    </section>
+
+
+    <section class="hide" id="question-section">
+      <h2 id="title"></h2>
+      <ul>
+        <li><button class="choices"> choice 1</button></li>
+        <li><button class="choices"> choice 2</button></li>
+        <li><button class="choices"> choice 3</button></li>
+        <li><button class="choices"> choice 4</button></li>
+      </ul>
+<h3 id="answer"></h3>
+    </section>
+
+
+    <section class="hide" id="initial-section">
+      <h3>All Done</h3>
+      <p> Your final score <label for="" id="score">80</label></p>
+
+      Enter Initials: <input type="text" id="initials-input">
+      <button id="save-btn">save</button>
+    </section>
+    <section class="hide" id="highscore-section">
+        <h3>High Score</h3>
+        <ol id="score-list">
+          <li>JK-80</li>
+        </ol>
+        <button id="go-back-btn">Go Back</button>
+        <button id="clear-score-btn">Clear score</button>
+
+    </section>
+
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <script src="./Assets/js/script.js"></script>
+</body>
+
+</html>
